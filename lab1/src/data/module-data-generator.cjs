@@ -11,7 +11,7 @@ const generateLicensePlate = () => {
     return `${randomLetters}-${randomNumbers}`;
 };
 
-fs.readFile('./src/scripts/car-brands.txt', 'utf8', (err, data) => {
+fs.readFile('./src/data/car-brands.txt', 'utf8', (err, data) => {
     if (err) {
         console.error(err);
         return;
@@ -37,7 +37,7 @@ fs.readFile('./src/scripts/car-brands.txt', 'utf8', (err, data) => {
 
     const content = `export const data = ${JSON.stringify(cars, null, 2)};`;
 
-    fs.writeFile(path.join(__dirname, '../module-data.js'), content, (err) => {
+    fs.writeFile(path.join(__dirname, './module-data.js'), content, (err) => {
         if (err) {
             console.error(err);
         } else {
