@@ -2,55 +2,64 @@ export const data = [
   {
     "id": 1,
     "brand": "BMW",
-    "productionDate": "2013-09-05",
-    "licensePlate": "NBU-9906"
+    "productionDate": "2018-07-23",
+    "licensePlate": "CXE-3423",
+    "rating": 2
   },
   {
     "id": 2,
-    "brand": "Nissan",
-    "productionDate": "2019-09-06",
-    "licensePlate": "OMO-6741"
+    "brand": "Subaru",
+    "productionDate": "2016-09-30",
+    "licensePlate": "ZHT-7304",
+    "rating": 2
   },
   {
     "id": 3,
     "brand": "BMW",
-    "productionDate": "2014-07-01",
-    "licensePlate": "BWN-7373"
+    "productionDate": "2012-10-20",
+    "licensePlate": "DSW-2059",
+    "rating": 5
   },
   {
     "id": 4,
     "brand": "Ford",
-    "productionDate": "2012-12-05",
-    "licensePlate": "MSL-2066"
+    "productionDate": "2014-07-25",
+    "licensePlate": "IGL-1954",
+    "rating": 4
   },
   {
     "id": 5,
-    "brand": "Subaru",
-    "productionDate": "2019-09-06",
-    "licensePlate": "YPZ-1771"
+    "brand": "Audi",
+    "productionDate": "2018-07-18",
+    "licensePlate": "UZL-3992",
+    "rating": 6
   },
   {
     "id": 6,
     "brand": "Audi",
-    "productionDate": "2020-06-26",
-    "licensePlate": "KAJ-6308"
+    "productionDate": "2020-11-17",
+    "licensePlate": "QHX-9811",
+    "rating": 5
   },
   {
     "id": 7,
-    "brand": "Toyota",
-    "productionDate": "2015-12-10",
-    "licensePlate": "YAN-0721"
+    "brand": "Mercedes",
+    "productionDate": "2014-12-06",
+    "licensePlate": "PNR-9680",
+    "rating": 0
   },
   {
     "id": 8,
-    "brand": "Mercedes",
-    "productionDate": "2013-09-27",
-    "licensePlate": "OIA-6741"
+    "brand": "Toyota",
+    "productionDate": "2017-05-03",
+    "licensePlate": "WCO-9683",
+    "rating": 9
   },
   {
     "id": 9,
-    "brand": "BMW",
-    "productionDate": "2016-08-08",
-    "licensePlate": "ZDS-5413"
+    "brand": "Toyota",
+    "productionDate": "2011-11-22",
+    "licensePlate": "IQM-0158",
+    "rating": 6
   }
 ];

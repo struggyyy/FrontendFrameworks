@@ -11,16 +11,18 @@ const Lab2 = () => {
   }
 
   if (!person) {
-    return <h1>Nie znaleziono auta o tym identyfikatorze.</h1>;
+    return <h1>Car with this ID is not found.</h1>;
   }
 
   return (
     <div>
-      <h1>Profil Auta</h1>
+      <h1>Car Profile</h1>
+      <div className="car-profile">
+      <h2>{person.brand}</h2>
       <p>ID: {person.id}</p>
-      <p>Marka: {person.brand}</p>
-      <p>Data produkcji: {person.productionDate}</p>
-      <p>Tablica rejestracyjna: {person.licensePlate}</p>
+      <p>Production Date: {person.productionDate}</p>
+      <p>License Plate: {person.licensePlate}</p>
+      </div>
     </div>
   );
 };

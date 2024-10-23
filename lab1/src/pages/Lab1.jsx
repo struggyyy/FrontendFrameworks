@@ -1,5 +1,5 @@
 import React from 'react';
-import CarProfile from '../components/CarProfile';
+import CarProfileDisplay from '../components/CarProfileDisplay';
 import { data as cars } from '../data/module-data';
 
 const Lab1 = () => {
@@ -8,7 +8,7 @@ const Lab1 = () => {
       <h1>Car Profiles</h1>
       <div>
         {cars.map((car) => (
-          <CarProfile key={car.id} car={car} />
+          <CarProfileDisplay key={car.id} car={car} />
         ))}
       </div>
     </div>
