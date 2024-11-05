@@ -3,6 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 
 const NavBarMenu = ({ items }) => {
+  const filteredItems = items.filter(item => 
+    item.label === "Home" || 
+    item.label === "Lab1" || 
+    item.label === "Lab2" || 
+    item.label === "Lab3" || 
+    item.label === "Lab4"
+  );
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -10,7 +18,7 @@ const NavBarMenu = ({ items }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            {items.map(item => (
+            {filteredItems.map(item => (
               <Nav.Link href={item.url} key={item.id}>
                 {item.label}
               </Nav.Link>
