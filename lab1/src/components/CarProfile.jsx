@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import AppContext from '../data/AppContext';
 import RatingBar from './RatingBar';
+import useDispatch from '../hooks/useDispatch';
 
 const CarProfile = ({ car }) => {
-  const { dispatch } = useContext(AppContext);
+  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const handleRate = () => {

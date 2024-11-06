@@ -8,7 +8,8 @@ const NavBarMenu = ({ items }) => {
     item.label === "Lab1" || 
     item.label === "Lab2" || 
     item.label === "Lab3" || 
-    item.label === "Lab4"
+    item.label === "Lab4" ||
+    item.label === "Lab5"
   );
 
   return (

@@ -1,0 +1,52 @@
+.table-user-col {
+    width: 20%;
+  }
+  
+  .table-title-col {
+    width: 60%;
+  }
+  
+  .table-comments-col {
+    width: 20%;
+  }
+  
+  .accordion-button {
+    box-shadow: none !important;
+    border: none;
+    padding: 0.25rem 1.25rem;
+    font-weight: bold;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #f8f9fa;
+  }
+  
+  .accordion-body {
+    padding-left: 1rem;
+  }
+  
+.table-button-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+  
+  .table-button-link:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }
+  
+  .table-button-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+  
